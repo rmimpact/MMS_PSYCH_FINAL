@@ -1,0 +1,27 @@
+/* Global styles (used across ALL pages) */
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: "Montserrat", sans-serif;
+
+    /* Background pattern */
+    background-color: #ffffff;
+    background-image: radial-gradient(#4c9494 1.6px, transparent 1.6px),
+                      radial-gradient(#4c9494 1.6px, #ffffff 1.6px);
+    background-size: 64px 64px;
+    background-position: 0 0, 32px 32px;
+}
+
+/* Global heading styles */
+h1, h2, h3 {
+    color: #234040;
+    font-weight: 700;
+    letter-spacing: 0.02em;
+}
+
+/* Global paragraph styles */
+p {
+    color: #3d5555;
+    line-height: 1.8;
+}
