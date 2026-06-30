@@ -6,7 +6,8 @@
   box-sizing: border-box;
 }
 
-html, body {
+html,
+body {
   margin: 0;
   padding: 0;
 }
@@ -53,13 +54,14 @@ nav ul li a {
   padding: 7px 13px;
   border-radius: 3px;
   text-transform: uppercase;
+  transition: background 0.5s, color 0.5s;
 }
 
-a.active,
-a:hover {
+/* ONLY apply hover/active styles to the navigation links */
+nav ul li a.active,
+nav ul li a:hover {
   background: hsl(180, 30%, 45%);
   color: #fff;
-  transition: 0.5s;
 }
 
 /* mobile menu icon */
@@ -116,8 +118,9 @@ a:hover {
     color: #fff;
   }
 
-  a:hover,
-  a.active {
+  /* Mobile hover/active */
+  nav ul li a:hover,
+  nav ul li a.active {
     background: none;
     color: hsl(180, 30%, 45%);
   }
